@@ -75,10 +75,12 @@ module.exports = function(options) {
 
     var config = {
       options: {
+        'K': options.keepDirlinks,
         'R': options.relative !== false,
         'c': options.incremental,
         'd': options.emptyDirectories,
         'e': shell,
+        'k': options.copyDirlinks,
         'r': options.recursive,
         't': options.times,
         'u': options.update,

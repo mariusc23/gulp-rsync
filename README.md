@@ -236,6 +236,18 @@ Type: `boolean`, Default: `false`
 
 Skip files that are newer on the receiving end.
 
+###### `keepDirlinks`
+
+Type: `boolean`, Default: `false`
+
+Copies symlinks to the destination.
+
+###### `copyDirlinks`
+
+Type: `boolean`, Default: `false`
+
+Copies contents of symlinks to the destination.
+
 ###### `silent`
 
 Type: `boolean`, Default: `false`
